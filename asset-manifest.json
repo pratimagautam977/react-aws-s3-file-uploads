@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-aws-s3-file-uploads/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/react-aws-s3-file-uploads/static/js/main.bba9401a.chunk.js",
+    "main.js.map": "/react-aws-s3-file-uploads/static/js/main.bba9401a.chunk.js.map",
+    "runtime-main.js": "/react-aws-s3-file-uploads/static/js/runtime-main.09c31733.js",
+    "runtime-main.js.map": "/react-aws-s3-file-uploads/static/js/runtime-main.09c31733.js.map",
+    "static/js/2.8abdeab6.chunk.js": "/react-aws-s3-file-uploads/static/js/2.8abdeab6.chunk.js",
+    "static/js/2.8abdeab6.chunk.js.map": "/react-aws-s3-file-uploads/static/js/2.8abdeab6.chunk.js.map",
+    "index.html": "/react-aws-s3-file-uploads/index.html",
+    "precache-manifest.af336ab8d9d755f222ed2e42749c4f42.js": "/react-aws-s3-file-uploads/precache-manifest.af336ab8d9d755f222ed2e42749c4f42.js",
+    "service-worker.js": "/react-aws-s3-file-uploads/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/react-aws-s3-file-uploads/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8abdeab6.chunk.js.LICENSE.txt": "/react-aws-s3-file-uploads/static/js/2.8abdeab6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09c31733.js",
+    "static/js/2.8abdeab6.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.bba9401a.chunk.js"
+  ]
+}
