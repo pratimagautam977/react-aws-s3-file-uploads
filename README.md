@@ -6,9 +6,13 @@ This is the corresponding code for [This Medium Article](https://medium.com/@khe
 # Set UP
 
 Inside backend create a file called .env
+```
 npm install
 npm start
+```
 
 Inside frontend/react-s3-fileuploader
+```
 npm install
 npm start
+```
