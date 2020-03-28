@@ -16,7 +16,7 @@ exports.sign_s3 = (req,res) => {
 // Set up the payload of what we are sending to the S3 api
   const s3Params = {
     Bucket: S3_BUCKET,
-    Key: fileName,
+    Key: fileName+fileType,
     Expires: 50,
     ContentType: fileType,
     ACL: 'public-read'
@@ -30,7 +30,7 @@ s3.getSignedUrl('putObject', s3Params, (err, data) => {
     // Data payload of what we are sending back, the url of the signedRequest and a URL where we can access the content after its saved.
     const returnData = {
       signedRequest: data,
-      url: `https://${S3_BUCKET}.s3.amazonaws.com/${fileName}`
+      url: `https://${S3_BUCKET}.s3.amazonaws.com/${fileName}.${fileType}`
     };
     res.json({success:true, data:{returnData}});
   });
