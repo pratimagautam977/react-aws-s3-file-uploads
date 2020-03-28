@@ -16,7 +16,7 @@ exports.sign_s3 = (req,res) => {
 // Set up the payload of what we are sending to the S3 api
   const s3Params = {
     Bucket: S3_BUCKET,
-    Key: fileName+fileType,
+    Key: fileName+ "." +fileType,
     Expires: 50,
     ContentType: fileType,
     ACL: 'public-read'
